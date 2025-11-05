@@ -1,0 +1,47 @@
+# Git Commit Message Template for FreeTun
+
+# Use this template for consistent commit messages
+
+# Format: <type>(<scope>): <subject>
+
+# Type should be one of:
+# - feat: A new feature
+# - fix: A bug fix
+# - docs: Documentation only changes
+# - style: Changes that don't affect code meaning (white-space, formatting)
+# - refactor: Code change that neither fixes a bug nor adds a feature
+# - perf: Code change that improves performance
+# - test: Adding missing tests
+# - chore: Changes to build process or auxiliary tools
+
+# Scope (optional): Indicate what part of the codebase you're working on
+# - auth
+# - user
+# - project
+# - payment
+# - message
+# - admin
+# - frontend
+# - backend
+
+# Examples:
+# feat(auth): implement user registration endpoint
+# fix(payment): resolve escrow release timing issue
+# docs: update setup instructions in README
+# refactor(user): simplify profile update logic
+# chore(deps): update dependencies to latest versions
+
+# Subject line rules:
+# - Use imperative mood ("add" not "adds" or "added")
+# - Don't capitalize first letter
+# - No period at the end
+# - Maximum 50 characters
+
+# Body (optional): Explain what and why, not how
+# - Wrap at 72 characters
+# - Separate from subject with blank line
+
+# Footer (optional): Reference issues
+# - Closes #123
+# - Fixes #456
+# - Related to #789
